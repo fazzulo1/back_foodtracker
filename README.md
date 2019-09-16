@@ -1,24 +1,33 @@
-# README
+# WEB APPLICATION NAME:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+F🍎🍏D TRACKER
 
-Things you may want to cover:
+# GOAL:
 
-* Ruby version
+This web application was designed to help people track groceries purchased by a family household.
 
-* System dependencies
+# Languages and Libarries:
 
-* Configuration
+This is a fullstack application and includes the following tools:
+Frontend: HTML, CSS, JavaScript, React, ReactStrap.
+Backend: Ruby
 
-* Database creation
+# Seed and Data Schema
 
-* Database initialization
+As an alternative to using an API as the application data source, the web application database was seeded to store some initial data.
 
-* How to run the test suite
+# Functionality:
 
-* Services (job queues, cache servers, search engines, etc.)
+- Add a food item, this button will prompt the user with a modal where a food iten data can be entered.
 
-* Deployment instructions
+- Show all items, thhis option list all the items stored in the database.
 
-* ...
+- Show fridge items, this options filters the dabase items and selects the items identified as "fridge" under the location heading.
+
+- Show pantry items, similar to the prior option, it filters for "pantry" items.
+
+- Edit icon, this button prompst the user with a modal to edit any data corresponsing to the selected item.
+
+- Delete icon, erases the item in the corresponding row.
+
+- Note: Once the user click on the show buttons / options all the items get filtered in alphabetical order (a - z).
